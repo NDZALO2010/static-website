@@ -14,3 +14,9 @@
 - [x] Add all changes
 - [x] Commit with message "moved files and images to folders"
 - [x] Push to https://github.com/NDZALO2010/AWS_re-start_Project_Team_6.git
+
+# TODO: Fix GitHub Pages Deployment
+
+- [x] Move index.html to root directory
+- [x] Update paths in index.html for CSS, JS, images, and other HTML links
+- [x] Commit and push changes

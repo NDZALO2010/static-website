@@ -4,7 +4,11 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+<<<<<<< HEAD
     background-image: url('../images/background.webp');
+=======
+    background-image: url('images/background.webp');
+>>>>>>> b98d6a9bd29857c55429c7124fa7ffb0e6f1f23a
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

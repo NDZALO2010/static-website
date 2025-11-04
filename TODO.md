@@ -1,12 +1,24 @@
-# TODO List for CPMNT Restaurant Static Website
+# TODO: Organize Project Folders
 
-- [x] Create index.html: Home page with restaurant intro and navigation
-- [x] Create menu.html: Display menu items with placeholder images and CSS animations
-- [x] Create booking.html: Reservation form (name, date, time, guests, submit)
-- [x] Create order.html: Order form (select items, quantity, submit)
-- [x] Create confirmation.html: Thank you page after submission
-- [x] Create about.html: Brief about CPMNT
-- [x] Create contact.html: Contact details
-- [x] Create styles.css: Minimal colors, readable fonts, responsive layout, animations
-- [x] Create script.js: Handle form submissions and redirects
-- [x] Test website by opening index.html in browser
+- [x] Create folders: images, structure, style, script
+- [x] Move image files to images/ folder
+- [x] Move HTML files to structure/ folder
+- [x] Move styles.css to style/ folder
+- [x] Move script.js to script/ folder
+- [x] Update all HTML file paths to new locations
+- [x] Run the project to verify functionality
+
+# TODO: Push to GitHub
+
+- [x] Check git status
+- [x] Add all changes
+- [x] Commit with message "moved files and images to folders"
+- [x] Push to https://github.com/NDZALO2010/AWS_re-start_Project_Team_6.git
+
+# TODO: Fix GitHub Pages Deployment
+
+- [x] Move index.html to root directory
+- [x] Update paths in index.html for CSS, JS, images, and other HTML links
+- [x] Update navigation links in structure/ HTML files to point to root index.html
+- [x] Commit and push changes
+- [x] Thorough testing: All pages, assets, and links verified via curl (HTTP 200 OK for all)

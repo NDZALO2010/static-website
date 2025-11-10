@@ -6,7 +6,8 @@
     <title>Order Online - Nastro Bliss Restaurant</title>
     <link rel="stylesheet" href="../style/styles.css">
 </head>
-<body>
+<body class="video-bg" style="position: relative;">
+    <video autoplay loop muted style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; object-fit: cover; z-index: -1;" src="../images/beef_grilled - Trim.mp4"></video>
     <header>
         <h1>Order Online from Nastro Bliss</h1>
         <nav>
@@ -33,9 +34,39 @@
                 <label for="item">Select Item:</label>
                 <select id="item" name="item" required>
                     <option value="">Choose an item</option>
-                    <option value="Pasta Primavera">Pasta Primavera - R90.00</option>
-                    <option value="Grilled Salmon">Grilled Salmon - R68.99</option>
-                    <option value="Beef Steak">Beef Steak - R122.99</option>
+                    <optgroup label="Meals">
+                        <option value="Pasta Primavera">Pasta Primavera - R90.00</option>
+                        <option value="Grilled Salmon">Grilled Salmon - R68.99</option>
+                        <option value="Beef Steak">Beef Steak - R122.99</option>
+                        <option value="Grilled Chicken">Grilled Chicken - R85.00</option>
+                        <option value="Vegetable Stir Fry">Vegetable Stir Fry - R75.00</option>
+                        <option value="Lamb Chops">Lamb Chops - R110.00</option>
+                        <option value="Seafood Paella">Seafood Paella - R95.00</option>
+                        <option value="Beef Burger">Beef Burger - R80.00</option>
+                        <option value="Chicken Curry">Chicken Curry - R88.00</option>
+                        <option value="Fish and Chips">Fish and Chips - R92.00</option>
+                    </optgroup>
+                    <optgroup label="Drinks">
+                        <option value="Coffee">Coffee - R20.00</option>
+                        <option value="Tea">Tea - R15.00</option>
+                        <option value="Fresh Juice">Fresh Juice - R25.00</option>
+                        <option value="Soda">Soda - R18.00</option>
+                        <option value="Smoothie">Smoothie - R30.00</option>
+                        <option value="Sparkling Water">Sparkling Water - R12.00</option>
+                        <option value="Cocktail">Cocktail - R45.00</option>
+                        <option value="Wine">Wine - R50.00</option>
+                    </optgroup>
+                    <optgroup label="Desserts">
+                        <option value="Chocolate Cake">Chocolate Cake - R35.00</option>
+                        <option value="Ice Cream">Ice Cream - R25.00</option>
+                        <option value="Cheesecake">Cheesecake - R40.00</option>
+                        <option value="Tiramisu">Tiramisu - R38.00</option>
+                        <option value="Pudding">Pudding - R22.00</option>
+                        <option value="Apple Pie">Apple Pie - R30.00</option>
+                        <option value="Chocolate Mousse">Chocolate Mousse - R28.00</option>
+                        <option value="Fruit Tart">Fruit Tart - R32.00</option>
+                        <option value="Brownie">Brownie - R26.00</option>
+                    </optgroup>
                 </select>
 
                 <label for="quantity">Quantity:</label>

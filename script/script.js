@@ -50,6 +50,14 @@ document.addEventListener('DOMContentLoaded', function() {
         };
     }
 
+    // Show menu categories on page load for order page
+    const mealsCategory = document.getElementById('meals');
+    const drinksCategory = document.getElementById('drinks');
+    const dessertsCategory = document.getElementById('desserts');
+    if (mealsCategory) mealsCategory.style.display = 'block';
+    if (drinksCategory) drinksCategory.style.display = 'block';
+    if (dessertsCategory) dessertsCategory.style.display = 'block';
+
     // Menu item image click to show description
     const menuImages = document.querySelectorAll('.menu-item img');
     menuImages.forEach(img => {

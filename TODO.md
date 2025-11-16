@@ -1,5 +1,8 @@
-# TODO List for Navigation Bar and Logo Update
+# TODO List for Implementing Multiple Item Selection in Order Page
 
-- [x] Add logo image to index.html header (top left position)
-- [x] Update styles.css to make header flex layout with logo and nav on left
-- [x] Update styles.css to make nav vertical (list items stacked)
+- [ ] Update drinks select options and drinks div in structure/order.html to match new drink names
+- [ ] Change radio buttons to checkboxes in meals, drinks, desserts categories
+- [ ] Add quantity input fields for each menu item
+- [ ] Update script/script.js to handle multiple selections and quantities
+- [ ] Update form submission to collect and send multiple items
+- [ ] Test the multiple selection functionality
